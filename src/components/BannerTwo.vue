@@ -1,0 +1,528 @@
+<template>
+  <div
+    class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-blsack before:opacitsy-50 before:z-1d0">
+    <!-- <img src="@/assets/default-avatar.png" alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" /> -->
+
+    <div
+      class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-white p-6">
+      <div class="bg-rded-500 flex flex-col md:flex-row w-full">
+        <div class="md:hidden flex justify-center mb-4">
+          <img src="@/assets/misgina.jpg" alt="Banner Image"
+            class="rounded-full h-64 w-64 md:h-96 md:w-96 border-8 border-blue-200 shadow-xl mt-4" />
+        </div>
+        <div class="md:w-1/2 flex flex-col justify-center">
+          <div class="border-rd-4 w-fidt pr-4 mb-8 flex flex-col itedms-center">
+            <h2 class="md:text-2xl text-2xl font-light text-center md:text-left">Hello, I'm</h2>
+            <h2 class="md:text-5xl text-2xl font-normal text-center md:text-left uppercase">Misgina Gebretsadik</h2>
+          </div>
+          <div class="flex justify-center md:justify-start text-center md:text-left">
+            <div class="md:ml-2 border-l-4 pl-4">
+              <h2 class="md:text-2xl text-lg font-light"><span class="md:text-4xl text-xl font-normal">Fullstack Web
+                  Developer</span></h2>
+              <p class="md:text-2xl text-lg font-light">I develop web applications.</p>
+            </div>
+          </div>
+          <div class="flex flex-col pt-6 mt-4 sm:flex-row justify-center lg:hidden">
+            <div class="flex items-center justify-center">
+              <p class=" text-lg font-semibold uppercase text-grey-20">
+                Connect with me
+              </p>
+              <div class="hidden sm:block">
+                <i class="bx bx-chevron-right text-2xl text-gray-500"></i>
+              </div>
+            </div>
+            <div class="flex items-center justify-center pt-5 pl-2 sm:pt-0">
+              <a href="/">
+                <i class="bx bxl-facebook-square text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-twitter text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-github text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-linkedin text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-instagram text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+            </div>
+          </div>
+          <button type="button"
+            class="hidden sm:flex mt-12 bg-transparent text-white text-base py-3 px-6 border border-white rounded-lg hover:bg-white hover:text-gray-200 transition duration-300 w-40">
+            Download CV
+          </button>
+        </div>
+        <div class="hidden md:flex pl-6">
+          <img src="@/assets/misgina.jpg" alt="Banner Image"
+            class="rounded-full h-48 w-48 md:h-96 md:w-96 border-4 border-gray-100 shadow-xl" />
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="mx-10">
+    <div class="bg-grey-50  md:px-16" id="about">
+      <div class="container flex flex-col items-cdenter py-16 md:py-20 lg:flex-row">
+        <div class="w-full text-cendter lg:text-left">
+          <h2 class="text-4xl font-semibold uppercase text-white sm:text-5xl lg:text-4xl">
+            Who am I?
+          </h2>
+          <h4 class="pt-6 text-2xl lg:text-3xl">
+            Here is Misgina, a Web Developer!
+          </h4>
+          <p class="pt-6 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+            mollit anim id est laborum.
+          </p>
+          <div class="hidden lg:flex flex-col pt-6 sm:flex-row lg:justify-start">
+            <div class="flex items-center justify-start">
+              <p class="text-lg font-semibold uppercase text-grey-20">
+                Connect with me
+              </p>
+              <div class="hidden sm:block">
+                <i class="bx bx-chevron-right text-2xl text-gray-200"></i>
+              </div>
+            </div>
+            <div class="flex items-center pt-5 pl-2 sm:justify-start sm:pt-0">
+              <a href="/">
+                <i class="mdi-facebook-square text-2xl text-gray-200 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-twitter text-2xl text-gray-200 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-github text-2xl text-gray-200 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-linkedin text-2xl text-gray-200 hover:text-yellow-400"></i>
+              </a>
+              <a href="/" class="pl-4">
+                <i class="bx bxl-instagram text-2xl text-gray-200 hover:text-yellow-400"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container  md:px-16" id="services">
+      <h2 class="text-4xl font-semibold text-gray-200 sm:text-5xl lg:text-4xl my-20">
+        Services I provide
+      </h2>
+      <!-- <h3 class="pt-6 text-xl font-medium sm:text-2xl lg:text-3xl">
+        These are the services I offer
+      </h3> -->
+
+      <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+            <div class="hidden group-hover:block">
+              <img src="@/assets/img/icon-development-white.svg" alt="development icon" />
+            </div>
+            <div class="block group-hover:hidden">
+              <img src="@/assets/img/icon-development-black.svg" alt="development icon" />
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+              Frontend Development
+            </h3>
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+            <div class="hidden group-hover:block">
+              <img src="@/assets/img/icon-development-white.svg" alt="development icon" />
+            </div>
+            <div class="block group-hover:hidden">
+              <img src="@/assets/img/icon-development-black.svg" alt="development icon" />
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+              Backend Development
+            </h3>
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+            <div class="hidden group-hover:block">
+              <img src="@/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
+            </div>
+            <div class="block group-hover:hidden">
+              <img src="@/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+              Fullstack Development
+            </h3>
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+            <div class="hidden group-hover:block">
+              <img src="@/assets/img/icon-content-white.svg" alt="content marketing icon" />
+            </div>
+            <div class="block group-hover:hidden">
+              <img src="@/assets/img/icon-content-black.svg" alt="content marketing icon" />
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+              Deployment Service
+            </h3>
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
+            <div class="hidden group-hover:block">
+              <img src="@/assets/img/icon-content-white.svg" alt="content marketing icon" />
+            </div>
+            <div class="block group-hover:hidden">
+              <img src="@/assets/img/icon-content-black.svg" alt="content marketing icon" />
+            </div>
+          </div>
+          <div class="text-center">
+            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+              Mobile Application Development
+            </h3>
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container py-16 md:py-20 md:px-20 mx-auto" id="portfolio">
+      <h2 class="text-4xl font-semibold uppercase text-gray-200 sm:text-5xl lg:text-4xl my-24">
+        Check out my Projects
+      </h2>
+      <div class="space-y-16 my-16">
+        <div v-for="(project, index) in projects" :key="index"
+          class="flex flex-col shadow-xl rounded-sm bg-whfite shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border "
+          style="">
+          <img class="h-64 w-full rounded-md object-cover md:h-44 md:w-48" :src="project.image" alt="" />
+          <div class="flex flex-col justify-start p-6 pt-3 md:ml-20">
+            <div class="flex flex-col lg:flex-row items-center">
+              <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">{{project.name}}</h5>
+              <div class="flex space-x-4 lg:ml-8 justify-center">
+                <div v-for="(tech, index) in project.technologies" :key="index"
+                  class="flex justify-center rounded-sm bg-gray-100 px-2.5 border border-transparent text-sm text-gray-800 transition-all shadow-sm">
+                  {{ tech }}
+                </div>
+              </div>
+            </div>
+            <p class="mb-4 mt-4 text-base">
+              This is a wider card with supporting text below as a natural lead-in
+              to additional content. This content is a little bit longer.
+            </p>
+            <p class="text-xs text-surface/75 dark:text-neutral-300">
+              Last updated 3 mins ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-grey-50 px-6 md:px-20" id="clients">
+      <div class="container py-16 md:py-20">
+        <div class="mx-auto w-full sm:w-3/4 lg:w-full">
+          <h2 class="text-4xl font-semibold uppercase text-gray-500 sm:text-5xl lg:text-4xl">
+            My latest clients
+          </h2>
+          <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
+            <span class="m-8 block">
+              <img src="@/assets/img/logo-coca-cola.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </span>
+            <span class="m-8 block">
+              <img src="@/assets/img/logo-apple.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </span>
+
+            <span class="m-8 block">
+              <img src="@/assets/img/logo-netflix.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </span>
+
+            <span class="m-8 block">
+              <img src="@/assets/img/logo-amazon.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </span>
+
+            <span class="m-8 block">
+              <img src="@/assets/img/logo-stripe.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container px-6 md:px-20 pt-16 md:pt-20" id="work">
+      <h2 class="text-4xl font-semibold uppercase text-gray-200 sm:text-5xl lg:text-4xl">
+        My work experience
+      </h2>
+      <!-- <h3 class="pt-6 text-center  text-xl font-medium text-gray-200 sm:text-2xl lg:text-3xl">
+        Here's what I did before freelancing
+      </h3> -->
+
+      <div class="relative lg:mx-8 mt-12 flex w-full flex-col">
+        <div class="mt-8 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
+          <div class="md:w-2/5">
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-start">
+              <a href="http://pilasatech.net/" target="_blank" class="shrink-0">
+                <img src="http://pilasatech.net/logo/1504182636.png" class="h-32 w-32" alt="company logo" />
+              </a>
+              <div class="relative mb-4 lg:mb-0 lg:ml-3 w-full md:block">
+                <a href="http://pilasatech.net/" target="_blank" class="text-blue-500 hover:underline">Pilasa Technologies</a>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-3/5 space-y-4">
+            <div class="relative flex md:pl-18">
+
+              <div class="mt-1 flex items-center">
+                <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block">
+                </span>
+                <div class="md:-mt-1 md:pl-8">
+                  <span class="block pt-2  text-xl font-bold text-gray-200">Fullstack
+                    Developer</span>
+                  <span class="block  font-semibold text-gray-400 text-base text-left">Sept 2020 - Nov 2020</span>
+
+                </div>
+              </div>
+            </div>
+            <div class="relative flex md:pl-18">
+              <div class="mt-1 flex items-center">
+                <!-- <i class="bx bxs-right-arrow hidden text-gray-500 md:block"></i> -->
+                <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block">
+                </span>
+
+                <div class="md:-mt-1 md:pl-8">
+                  <span class="block pt-2  text-xl font-bold text-gray-200">Frontend
+                    Developer Intern</span>
+                  <span class="block  font-semibold text-gray-400 text-left text-base">Feb 2024 - May 2024</span>
+                  <!-- <div class="pt-2">
+                    <span class="block  text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                      venenatis enim.</span>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-16 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
+          <div class="md:w-2/5">
+            <div class="flex flex-col md:flex-row items-center justify-center md:justify-start">
+              <a href="https://ahazplatforms.com/" target="_blank" class="shrink-0">
+                <img src="https://ahazplatforms.com/ahaz/logo.avif" class="h-32 w-32" alt="company logo" />
+              </a>
+              <div class="relative mt-2 lg:mt-0 mb-4 lg:mb-0 lg:ml-3 w-full md:block">
+                <a href="https://ahazplatforms.com/" target="_blank" class="text-blue-500 hover:underline">Ahaz Platforms</a>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-3/5">
+            <div class="relative flex md:pl-18">
+              <div class="mt-1 flex items-center">
+                <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
+                <div class="md:-mt-1 md:pl-8">
+                  <span class="block pt-2  text-xl font-bold text-gray-200">Frontend
+                    Developer</span>
+                    <span class="block  font-semibold text-gray-400 text-left text-base">Aug 2024 - Dec 2024</span>
+                  <!-- <div class="pt-2">
+                    <span class="block  text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
+                      venenatis enim.</span>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="px-6 md:px-20">
+      <div class="container pb-16" id="contact">
+        <h2 class="text-2xl font-semibold uppercase text-gray-200 sm:text-3xl lg:text-4xl mt-24 pb-8">
+          Technologies I am good at
+        </h2>
+        <h4 class="py-6 text-center text-2xl">
+          Advanced skills
+        </h4>
+        <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/html-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
+              HTML
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/css-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
+              CSS
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/javascript-39400.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
+              JavaScript
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/vuejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
+              Vue.js
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/nodejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
+              Node.js
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/tailwind.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              Tailwind CSS
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/express.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              Express.js
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/mongodb.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              MongoDB
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/mysql.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              MySQL
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/git.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              Git
+            </p>
+          </div>
+        </div>
+        <h4 class="py-6 text-center text-2xl mt-10">
+          Basic skills
+        </h4>
+        <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+            <div class="flex items-center">
+              <img src="@/assets/laravel.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              Laravel
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
+            <div class="flex items-center">
+              <img src="@/assets/flutter.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              Flutter
+            </p>
+          </div>
+          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
+            <div class="flex items-center">
+              <img src="@/assets/reactjs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            </div>
+            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
+              React.js
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <Testimonial />
+  </div>
+</template>
+<script setup>
+import { ref } from 'vue';
+import Testimonial from './TestimonialOne.vue';
+
+defineProps({
+  title: String,
+  subtitle: String,
+  description: String,
+  job: String
+});
+
+const projects = ref([
+  {
+    name: 'Pharmaceutical Website',
+    technologies: ['Vue.js', 'Tailwind CSS'],
+    description: 'Some description...',
+    image: 'src/assets/tailwind.png'
+  },
+  {
+    name: 'E-Commerce System',
+    technologies: ['Vue.js', 'Tailwind CSS'],
+    description: 'Some description...',
+    image: 'src/assets/tailwind.png'
+  },
+  {
+    name: 'Blogging App',
+    technologies: ['HTML/CSS', 'Django', 'SQLite'],
+    description: 'Some description...',
+    image: 'src/assets/tailwind.png'
+  },
+  {
+    name: 'SACCO App',
+    technologies: ['Laravel', 'Bootstrap', 'MySQL'],
+    description: 'Some description...',
+    image: 'src/assets/tailwind.png'
+  },
+  {
+    name: 'School Management System and Website',
+    technologies: ['HTML/CSS', 'PHP', 'MySQL'],
+    description: 'Some description...',
+    image: 'src/assets/tailwind.png'
+  },
+]);
+</script>
+
+<style scoped></style>
