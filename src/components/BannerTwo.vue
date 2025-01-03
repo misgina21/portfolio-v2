@@ -3,9 +3,8 @@
     class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-blsack before:opacitsy-50 before:z-1d0">
     <!-- <img src="@/assets/default-avatar.png" alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" /> -->
 
-    <div
-      class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-white p-6">
-      <div class="bg-rded-500 flex flex-col md:flex-row w-full">
+    <div class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-gray-400 p-6" id="home">
+      <div data-aos="fade-right" data-aos-duration="1000" class="bg-rded-500 flex flex-col md:flex-row w-full">
         <div class="md:hidden flex justify-center mb-4">
           <img src="@/assets/misgina.jpg" alt="Banner Image"
             class="rounded-full h-64 w-64 md:h-96 md:w-96 border-8 border-blue-200 shadow-xl mt-4" />
@@ -28,29 +27,26 @@
                 Connect with me
               </p>
               <div class="hidden sm:block">
-                <i class="bx bx-chevron-right text-2xl text-gray-500"></i>
+                <i class="bx bx-chevron-right text-2xl text-gray-300"></i>
               </div>
             </div>
             <div class="flex items-center justify-center pt-5 pl-2 sm:pt-0">
-              <a href="/">
-                <i class="bx bxl-facebook-square text-2xl text-gray-50 hover:text-yellow-400"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-twitter text-2xl text-gray-50 hover:text-yellow-400"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-github text-2xl text-gray-50 hover:text-yellow-400"></i>
-              </a>
-              <a href="/" class="pl-4">
+              <a href="https://www.linkedin.com/in/misgina-gebretsadik-195984195/" target="_blank" class="pl-4">
                 <i class="bx bxl-linkedin text-2xl text-gray-50 hover:text-yellow-400"></i>
               </a>
-              <a href="/" class="pl-4">
+              <a href="https://github.com/misgina21" target="_blank" class="pl-4">
+                <i class="bx bxl-github text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="https://x.com/misginaGeb107" target="_blank" class="pl-4">
+                <i class="bx bxl-twitter text-2xl text-gray-50 hover:text-yellow-400"></i>
+              </a>
+              <a href="https://www.instagram.com/_misgie_/" target="_blank" class="pl-4">
                 <i class="bx bxl-instagram text-2xl text-gray-50 hover:text-yellow-400"></i>
               </a>
             </div>
           </div>
           <button type="button"
-            class="hidden sm:flex mt-12 bg-transparent text-white text-base py-3 px-6 border border-white rounded-lg hover:bg-white hover:text-gray-200 transition duration-300 w-40">
+            class="hidden sm:flex mt-12 bg-transparent text-base py-3 px-6 border border-white rounded-lg hover:text-white transition duration-300 w-40">
             Download CV
           </button>
         </div>
@@ -66,13 +62,13 @@
     <div class="bg-grey-50  md:px-16" id="about">
       <div class="container flex flex-col items-cdenter py-16 md:py-20 lg:flex-row">
         <div class="w-full text-cendter lg:text-left">
-          <h2 class="text-4xl font-semibold uppercase text-white sm:text-5xl lg:text-4xl">
+          <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
             Who am I?
           </h2>
-          <h4 class="pt-6 text-2xl lg:text-3xl">
+          <h4 data-aos="fade-up" data-aos-duration="1000" class="pt-6 text-2xl lg:text-3xl">
             Here is Misgina, a Web Developer!
           </h4>
-          <p class="pt-6 leading-relaxed">
+          <p data-aos="fade-up" data-aos-duration="1000" class="pt-6 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -81,143 +77,110 @@
             occaecat cupidatat non proident, sunt in culpa qui officia deserunt
             mollit anim id est laborum.
           </p>
-          <div class="hidden lg:flex flex-col pt-6 sm:flex-row lg:justify-start">
+          <div data-aos="fade-up" data-aos-duration="1000" class="hidden lg:flex flex-col pt-6 sm:flex-row lg:justify-start">
             <div class="flex items-center justify-start">
               <p class="text-lg font-semibold uppercase text-grey-20">
                 Connect with me
               </p>
               <div class="hidden sm:block">
-                <i class="bx bx-chevron-right text-2xl text-gray-200"></i>
+                <i class="bx bx-chevron-right text-2xl text-gray-400"></i>
               </div>
             </div>
             <div class="flex items-center pt-5 pl-2 sm:justify-start sm:pt-0">
-              <a href="/">
-                <i class="mdi-facebook-square text-2xl text-gray-200 hover:text-yellow-400"></i>
+              <a href="https://www.linkedin.com/in/misgina-gebretsadik-195984195/" target="_blank" class="pl-4">
+                <i class="bx bxl-linkedin text-2xl text-gray-400 hover:text-yellow-400"></i>
               </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-twitter text-2xl text-gray-200 hover:text-yellow-400"></i>
+              <a href="https://github.com/misgina21" target="_blank" class="pl-4">
+                <i class="bx bxl-github text-2xl text-gray-400 hover:text-yellow-400"></i>
               </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-github text-2xl text-gray-200 hover:text-yellow-400"></i>
+              <a href="https://x.com/misginaGeb107" target="_blank" class="pl-4">
+                <i class="bx bxl-twitter text-2xl text-gray-400 hover:text-yellow-400"></i>
               </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-linkedin text-2xl text-gray-200 hover:text-yellow-400"></i>
-              </a>
-              <a href="/" class="pl-4">
-                <i class="bx bxl-instagram text-2xl text-gray-200 hover:text-yellow-400"></i>
+              <a href="https://www.instagram.com/_misgie_/" target="_blank" class="pl-4">
+                <i class="bx bxl-instagram text-2xl text-gray-400 hover:text-yellow-400"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container  md:px-16" id="services">
-      <h2 class="text-4xl font-semibold text-gray-200 sm:text-5xl lg:text-4xl my-20">
+    <div class="container md:px-16" id="services">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold text-gray-400 sm:text-5xl lg:text-4xl my-10">
         Services I provide
       </h2>
       <!-- <h3 class="pt-6 text-xl font-medium sm:text-2xl lg:text-3xl">
         These are the services I offer
       </h3> -->
 
-      <div class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
-        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+      <div data-aos="fade-up" data-aos-durtion="2000" class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+        <div data-aos="fade-up" data-aos-duration="2000" class="group rounded border  py-12 shadow">
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-            <div class="hidden group-hover:block">
-              <img src="@/assets/img/icon-development-white.svg" alt="development icon" />
-            </div>
-            <div class="block group-hover:hidden">
-              <img src="@/assets/img/icon-development-black.svg" alt="development icon" />
+            <div class="block">
+              <img src="@/assets/dashboard.png" class="text-white" alt="development icon" />
             </div>
           </div>
           <div class="text-center">
-            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
-              Frontend Development
+            <h3 class="pt-8 text-lg font-semibold text-gray-300 group-hover:text-yellow-400 lg:text-xl">
+              Web Application Development
             </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base px-2">
+              Building scalable and dynamic web-based applications to help solve real-world business needs and problems.
             </p>
           </div>
         </div>
-        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+        <div data-aos="fade-up" data-aos-duration="2000" class="group rounded border  py-12 shadow">
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-            <div class="hidden group-hover:block">
-              <img src="@/assets/img/icon-development-white.svg" alt="development icon" />
-            </div>
-            <div class="block group-hover:hidden">
-              <img src="@/assets/img/icon-development-black.svg" alt="development icon" />
+            <div class="block">
+              <img src="@/assets/fullstack.png" alt="development icon" />
             </div>
           </div>
           <div class="text-center">
-            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
-              Backend Development
+            <h3 class="pt-8 text-lg font-semibold text-gray-300 group-hover:text-yellow-400 lg:text-xl">
+              Website Development
             </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base px-2">
+              Creating responsive and visually appealing websites that help you advertise your products and services.
             </p>
           </div>
         </div>
-        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+        <div data-aos="fade-up" data-aos-duration="1000" class="group rounded border  py-12 shadow">
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-            <div class="hidden group-hover:block">
-              <img src="@/assets/img/icon-mobile-white.svg" alt="Mobile Application icon" />
-            </div>
-            <div class="block group-hover:hidden">
-              <img src="@/assets/img/icon-mobile-black.svg" alt="Mobile Application icon" />
+            <div class="block">
+              <img src="@/assets/deploy3.png" alt="content marketing icon" />
             </div>
           </div>
           <div class="text-center">
-            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
-              Fullstack Development
-            </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            </p>
-          </div>
-        </div>
-        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
-          <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-            <div class="hidden group-hover:block">
-              <img src="@/assets/img/icon-content-white.svg" alt="content marketing icon" />
-            </div>
-            <div class="block group-hover:hidden">
-              <img src="@/assets/img/icon-content-black.svg" alt="content marketing icon" />
-            </div>
-          </div>
-          <div class="text-center">
-            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+            <h3 class="pt-8 text-lg font-semibold text-gray-300 group-hover:text-yellow-400 lg:text-xl">
               Deployment Service
             </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base px-2">
+              Setting up and launching your application to the world with reliability.
             </p>
           </div>
         </div>
-        <div class="group rounded border  py-12 shadow hover:bg-blue-500">
+        <div data-aos="fade-up" data-aos-duration="1000" class="group rounded border  py-12 shadow">
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
-            <div class="hidden group-hover:block">
-              <img src="@/assets/img/icon-content-white.svg" alt="content marketing icon" />
-            </div>
-            <div class="block group-hover:hidden">
-              <img src="@/assets/img/icon-content-black.svg" alt="content marketing icon" />
+            <div class="block">
+              <img src="@/assets/mobile.png" alt="content marketing icon" />
             </div>
           </div>
           <div class="text-center">
-            <h3 class="pt-8 text-lg font-semibold text-gray-500 group-hover:text-yellow-400 lg:text-xl">
+            <h3 class="pt-8 text-lg font-semibold text-gray-300 group-hover:text-yellow-400 lg:text-xl">
               Mobile Application Development
             </h3>
-            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <p class="text-grey pt-4 text-sm group-hover:text-white md:text-base px-2">
+              Developing user-friendly, cross-platform mobile applications that simplify your daily digital tasks.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container py-16 md:py-20 md:px-20 mx-auto" id="portfolio">
-      <h2 class="text-4xl font-semibold uppercase text-gray-200 sm:text-5xl lg:text-4xl my-24">
+    <div class="container py-16 md:py-10 md:px-16" id="portfolio">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl my-24">
         Check out my Projects
       </h2>
       <div class="space-y-16 my-16">
-        <div v-for="(project, index) in projects" :key="index"
+        <div v-for="(project, index) in projects" :key="index" data-aos="fade-up" data-aos-duration="1000"
           class="flex flex-col shadow-xl rounded-sm bg-whfite shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border "
           style="">
           <img class="h-64 w-full rounded-md object-cover md:h-44 md:w-48" :src="project.image" alt="" />
@@ -242,52 +205,25 @@
         </div>
       </div>
     </div>
-    <div class="bg-grey-50 px-6 md:px-20" id="clients">
-      <div class="container py-16 md:py-20">
-        <div class="mx-auto w-full sm:w-3/4 lg:w-full">
-          <h2 class="text-4xl font-semibold uppercase text-gray-500 sm:text-5xl lg:text-4xl">
-            My latest clients
-          </h2>
-          <div class="flex flex-wrap items-center justify-center pt-4 sm:pt-4">
-            <span class="m-8 block">
-              <img src="@/assets/img/logo-coca-cola.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-            </span>
-            <span class="m-8 block">
-              <img src="@/assets/img/logo-apple.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-            </span>
-
-            <span class="m-8 block">
-              <img src="@/assets/img/logo-netflix.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-            </span>
-
-            <span class="m-8 block">
-              <img src="@/assets/img/logo-amazon.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-            </span>
-
-            <span class="m-8 block">
-              <img src="@/assets/img/logo-stripe.svg" alt="client logo" class="mx-auto block h-12 w-auto" />
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container px-6 md:px-20 pt-16 md:pt-20" id="work">
-      <h2 class="text-4xl font-semibold uppercase text-gray-200 sm:text-5xl lg:text-4xl">
+    <div class="container px-6 md:px-20 pt-16 md:pt-10" id="experience">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
         My work experience
       </h2>
-      <!-- <h3 class="pt-6 text-center  text-xl font-medium text-gray-200 sm:text-2xl lg:text-3xl">
+      <!-- <h3 class="pt-6 text-center  text-xl font-medium text-gray-400 sm:text-2xl lg:text-3xl">
         Here's what I did before freelancing
       </h3> -->
 
       <div class="relative lg:mx-8 mt-12 flex w-full flex-col">
-        <div class="mt-8 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
+        <div data-aos="fade-up" data-aos-duration="1000"
+          class="mt-8 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
           <div class="md:w-2/5">
             <div class="flex flex-col md:flex-row items-center justify-center md:justify-start">
               <a href="http://pilasatech.net/" target="_blank" class="shrink-0">
                 <img src="http://pilasatech.net/logo/1504182636.png" class="h-32 w-32" alt="company logo" />
               </a>
               <div class="relative mb-4 lg:mb-0 lg:ml-3 w-full md:block">
-                <a href="http://pilasatech.net/" target="_blank" class="text-blue-500 hover:underline">Pilasa Technologies</a>
+                <a href="http://pilasatech.net/" target="_blank" class="text-blue-500 hover:underline">Pilasa
+                  Technologies</a>
               </div>
             </div>
           </div>
@@ -295,10 +231,10 @@
             <div class="relative flex md:pl-18">
 
               <div class="mt-1 flex items-center">
-                <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block">
+                <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-gray-300 md:block">
                 </span>
                 <div class="md:-mt-1 md:pl-8">
-                  <span class="block pt-2  text-xl font-bold text-gray-200">Fullstack
+                  <span class="block pt-2  text-xl font-bold text-gray-400">Fullstack
                     Developer</span>
                   <span class="block  font-semibold text-gray-400 text-base text-left">Sept 2020 - Nov 2020</span>
 
@@ -307,16 +243,16 @@
             </div>
             <div class="relative flex md:pl-18">
               <div class="mt-1 flex items-center">
-                <!-- <i class="bx bxs-right-arrow hidden text-gray-500 md:block"></i> -->
+                <!-- <i class="bx bxs-right-arrow hidden text-gray-300 md:block"></i> -->
                 <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block">
                 </span>
 
                 <div class="md:-mt-1 md:pl-8">
-                  <span class="block pt-2  text-xl font-bold text-gray-200">Frontend
+                  <span class="block pt-2  text-xl font-bold text-gray-400">Frontend
                     Developer Intern</span>
                   <span class="block  font-semibold text-gray-400 text-left text-base">Feb 2024 - May 2024</span>
                   <!-- <div class="pt-2">
-                    <span class="block  text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <span class="block  text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
                       venenatis enim.</span>
                   </div> -->
@@ -325,14 +261,16 @@
             </div>
           </div>
         </div>
-        <div class="mt-16 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
+        <div data-aos="fade-up" data-aos-duration="1000"
+          class="mt-16 flex flex-col text-center md:flex-row md:text-left justify-center items-center border-l-2 pl-4">
           <div class="md:w-2/5">
             <div class="flex flex-col md:flex-row items-center justify-center md:justify-start">
               <a href="https://ahazplatforms.com/" target="_blank" class="shrink-0">
                 <img src="https://ahazplatforms.com/ahaz/logo.avif" class="h-32 w-32" alt="company logo" />
               </a>
               <div class="relative mt-2 lg:mt-0 mb-4 lg:mb-0 lg:ml-3 w-full md:block">
-                <a href="https://ahazplatforms.com/" target="_blank" class="text-blue-500 hover:underline">Ahaz Platforms</a>
+                <a href="https://ahazplatforms.com/" target="_blank" class="text-blue-500 hover:underline">Ahaz
+                  Platforms</a>
               </div>
             </div>
           </div>
@@ -341,11 +279,11 @@
               <div class="mt-1 flex items-center">
                 <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
                 <div class="md:-mt-1 md:pl-8">
-                  <span class="block pt-2  text-xl font-bold text-gray-200">Frontend
+                  <span class="block pt-2  text-xl font-bold text-gray-400">Frontend
                     Developer</span>
-                    <span class="block  font-semibold text-gray-400 text-left text-base">Aug 2024 - Dec 2024</span>
+                  <span class="block  font-semibold text-gray-400 text-left text-base">Aug 2024 - Dec 2024</span>
                   <!-- <div class="pt-2">
-                    <span class="block  text-gray-200">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <span class="block  text-gray-400">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
                       venenatis enim.</span>
                   </div> -->
@@ -356,128 +294,225 @@
         </div>
       </div>
     </div>
-    <div class="px-6 md:px-20">
-      <div class="container pb-16" id="contact">
-        <h2 class="text-2xl font-semibold uppercase text-gray-200 sm:text-3xl lg:text-4xl mt-24 pb-8">
+    <div class="px-6 md:px-20" id="skills">
+      <div class="container pb-16">
+        <h2 data-aos="fade-up" data-aos-duration="1000" class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
           Technologies I am good at
         </h2>
-        <h4 class="py-6 text-center text-2xl">
-          Advanced skills
-        </h4>
-        <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/html-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h4 class="py-6 text-center text-2xl">
+            Advanced skills
+          </h4>
+          <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/html-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 font-semibold text-gray-400 text-center text-wrap lg:text-lg">
+                HTML
+              </p>
             </div>
-            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
-              HTML
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/css-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/css-icon.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 font-semibold text-gray-400 text-center text-wrap lg:text-lg">
+                CSS
+              </p>
             </div>
-            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
-              CSS
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/javascript-39400.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/javascript-39400.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 font-semibold text-gray-400 text-center text-wrap lg:text-lg">
+                JavaScript
+              </p>
             </div>
-            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
-              JavaScript
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/vuejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/vuejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 font-semibold text-gray-400 text-center text-wrap lg:text-lg">
+                Vue.js
+              </p>
             </div>
-            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
-              Vue.js
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/nodejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/nodejs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 font-semibold text-gray-400 text-center text-wrap lg:text-lg">
+                Node.js
+              </p>
             </div>
-            <p class="pt-2 font-semibold text-gray-200 text-center text-wrap lg:text-lg">
-              Node.js
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/tailwind.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/tailwind.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                Tailwind CSS
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              Tailwind CSS
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/express.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/express.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                Express.js
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              Express.js
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/mongodb.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/mongodb.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                MongoDB
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              MongoDB
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/mysql.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/mysql.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                MySQL
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              MySQL
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/git.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/git.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                Git
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              Git
-            </p>
           </div>
         </div>
-        <h4 class="py-6 text-center text-2xl mt-10">
-          Basic skills
-        </h4>
-        <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
-            <div class="flex items-center">
-              <img src="@/assets/laravel.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <h4 class="py-6 text-center text-2xl mt-10">
+            Basic skills
+          </h4>
+          <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
+              <div class="flex items-center">
+                <img src="@/assets/laravel.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                Laravel
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              Laravel
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
-            <div class="flex items-center">
-              <img src="@/assets/flutter.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
+              <div class="flex items-center">
+                <img src="@/assets/flutter.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                Flutter
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              Flutter
-            </p>
-          </div>
-          <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
-            <div class="flex items-center">
-              <img src="@/assets/reactjs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+            <div class="w-1/3 py-4 sm:py-6 lg:w-1/6 rounded-full">
+              <div class="flex items-center">
+                <img src="@/assets/reactjs.png" alt="client logo" class="mx-auto block h-12 w-auto" />
+              </div>
+              <p class="pt-2 text-center font-semibold text-gray-400 lg:text-lg">
+                React.js
+              </p>
             </div>
-            <p class="pt-2 text-center font-semibold text-gray-200 lg:text-lg">
-              React.js
-            </p>
           </div>
         </div>
       </div>
     </div>
-    <Testimonial />
+    <Testimonial id="testimonial"/>
+    <div class="mt-6 px-6 md:px-20" id="contact">
+      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
+        Contact me
+      </h2>
+      <div data-aos="fade-up" data-aos-duration="1000"
+        class="grid sm:grid-cols-2 items-start gap-12 py-8 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] font-[sans-serif]">
+        <div>
+          <!-- <h1 class="text-gray-400 text-3xl font-bold">Let's Talk</h1> -->
+          <p class="text-sm text-gray-400 mt-4">Have some projects or brand to develop and need help? Then reach out
+            I would love to hear about your project and provide help with development.</p>
+
+          <div class="mt-12">
+            <h2 class="text-gray-400 text-base font-medium">Contact Information</h2>
+            <ul class="mt-4">
+              <li class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                  <path
+                    d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                  </path>
+                  <path d="M15 7a2 2 0 0 1 2 2"></path>
+                  <path d="M15 3a6 6 0 0 1 6 6"></path>
+                </svg>
+                <a href="javascript:void(0)" class="text-gray-400 text-base ml-4">
+                  <p>+251 985 753 874</p>
+                  <small class="block">I would appreciate if you reach me out on text messages.</small>
+                </a>
+              </li>
+              <li class="flex items-center mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#fff'
+                  viewBox="0 0 479.058 479.058" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path
+                    d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                    data-original="#000000" />
+                </svg>
+                <a href="javascript:void(0)" class="text-gray-400 text-base ml-4">
+                  <p>misginag609@gmail.com</p>
+                </a>
+              </li>
+              <li class="flex items-center mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+                  <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                  <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z">
+                  </path>
+                </svg>
+                <a href="javascript:void(0)" class="text-gray-400 text-base ml-4">
+                  <p>Mekelle, Tigray, Ethiopia</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-12">
+            <h2 class="text-gray-400 text-base font-medium">Socials</h2>
+
+            <ul class="flex mt-4 space-x-4">
+              <li class="h-10 rounded-full flex items-center justify-center shrink-0">
+                <a href="https://www.linkedin.com/in/misgina-gebretsadik-195984195/" target="_blank">
+                  <i class="bx bxl-linkedin text-2xl text-gray-400 hover:text-yellow-400"></i>
+                </a>
+              </li>
+              <li class="h-10 w-1d0 rounded-full flex items-center justify-center shrink-0">
+                <a href="https://github.com/misgina21" target="_blank">
+                  <i class="bx bxl-github text-2xl text-gray-400 hover:text-yellow-400"></i>
+                </a>
+              </li>
+              <li class="h-10 w-1d0 rounded-full flex items-center justify-center shrink-0">
+                <a href="https://x.com/misginaGeb107" target="_blank">
+                  <i class="bx bxl-twitter text-2xl text-gray-400 hover:text-yellow-400"></i>
+                </a>
+              </li>
+              <li class="h-10 w-1d0 rounded-full flex items-center justify-center shrink-0">
+                <a href="https://www.instagram.com/_misgie_/" target="_blank">
+                  <i class="bx bxl-instagram text-2xl text-gray-400 hover:text-yellow-400"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="ml-auo space-y-4">
+          <input type='text' placeholder='Name'
+            class="w-full text-gray-400 rounded-md bg-black py-2.5 px-4 border text-sm outline-nodne focus:border-white" />
+          <input type='email' placeholder='Email'
+            class="w-full text-gray-400 rounded-md bg-black py-2.5 px-4 border text-sm outline-none focus:border-white" />
+          <textarea placeholder='Message' rows="6"
+            class="w-full text-gray-400 rounded-md bg-black px-4 border text-sm pt-2.5 outline-none focus:border-white"></textarea>
+          <button type='button'
+            class="text-black bg-gray-300 hover:bg-gray-50 rounded-md text-base px-4 py-2.5 w-full !mt-6">Send Message</button>
+        </form>
+      </div>
+    </div>
   </div>
 </template>
 <script setup>

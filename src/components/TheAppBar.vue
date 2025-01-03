@@ -29,7 +29,7 @@
                 <div class="my-4 flex h-5/6 w-72 flex-col rounded-tr-2xl rounded-br-2xl">
                   <ul class=" flex flex-col">
                     <li class="relative transition">
-                      <RouterLink :to="{name: 'Home'}" @click="open = false"
+                      <a  @click.prevent="scrollToSection('home')"
                         class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
                         :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
                         <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -38,10 +38,10 @@
                               d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                           </svg></span>
                         Home
-                      </RouterLink>
+                      </a>
                     </li>
                     <li class="relative transition">
-                      <a href="#" @click="open = false"
+                      <a  @click.prevent="scrollToSection('services')"
                         class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
                         :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
                         <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -53,7 +53,7 @@
                       </a>
                     </li>
                     <li class="relative transition">
-                      <a href="#" @click="open = false"
+                      <a  @click.prevent="scrollToSection('portfolio')"
                         class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
                         :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
                         <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -65,7 +65,43 @@
                       </a>
                     </li>
                     <li class="relative transition">
-                      <a href="#" @click="open = false"
+                      <a  @click.prevent="scrollToSection('experience')"
+                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
+                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
+                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg></span>
+                        Experience
+                      </a>
+                    </li>
+                    <li class="relative transition">
+                      <a  @click.prevent="scrollToSection('skills')"
+                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
+                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
+                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg></span>
+                        Skills
+                      </a>
+                    </li>
+                    <li class="relative transition">
+                      <a  @click.prevent="scrollToSection('testimonial')"
+                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
+                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
+                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                          </svg></span>
+                        Testimonial
+                      </a>
+                    </li>
+                    <li class="relative transition">
+                      <a  @click.prevent="scrollToSection('contact')"
                         class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
                         :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
                         <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
@@ -111,10 +147,12 @@
 
           <div class="ml-auto flex items-center flex-wrap lg:flex-nowrap md:mr-40 justify-end">
             <div class="hidden lg:flex lg:items-center lg:justify-end lg:space-x-1 lg:flex-wrap text-gray-100">
-              <RouterLink :to="{name: 'Home'}" class="text-lg font-normal leading-6 pr-6"> Home </RouterLink>
-              <RouterLink :to="{name: 'Home'}" class="text-lg font-normal leading-6 pr-6"> Service </RouterLink>
-              <RouterLink :to="{name: 'Home'}" class="text-lg font-normal leading-6 pr-6">Projects</RouterLink>
-              <RouterLink :to="{name: 'Home'}" class="text-lg font-normal leading-6 pr-6">Contact Me</RouterLink>
+              <p @click.prevent="scrollToSection('home')" class="text-lg font-normal leading-6 pr-6 cursor-pointer"> Home </p>
+              <p @click.prevent="scrollToSection('services')" class="text-lg font-normal leading-6 pr-6 cursor-pointer"> Services </p>
+              <p @click.prevent="scrollToSection('portfolio')" class="text-lg font-normal leading-6 pr-6 cursor-pointer">Projects</p>
+              <p @click.prevent="scrollToSection('experience')" class="text-lg font-normal leading-6 pr-6 cursor-pointer"> Experience </p>
+              <p @click.prevent="scrollToSection('skills')" class="text-lg font-normal leading-6 pr-6 cursor-pointer"> Skills </p>
+              <p @click.prevent="scrollToSection('contact')" class="text-lg font-normal leading-6 pr-6 cursor-pointer">Contact Me</p>
             </div>
             <button type="button"
               class="sm:hidden flex justify-center bg-transpdarent text-white text-base py-2 border rounded-lg hover:bg-gray-800 transition duration-300 w-32">
@@ -131,6 +169,7 @@
         </button>
       </nav>
     </header>
+    
   </div>
 </template>
 
@@ -161,7 +200,14 @@ const scrollTop = () => {
     behavior: 'smooth'
   });
 };
-
+const scrollToSection = (sectionId) => {
+  const section = document.getElementById(sectionId);
+  console.log('section: ', section);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+    open.value = false
+  }
+};
 const handleScroll1 = () => {
   scrollY.value = window.scrollY;
   showButton.value = scrollY.value > 100; // Change 200 to your desired scroll position

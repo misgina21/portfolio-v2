@@ -1,15 +1,13 @@
 import './assets/style.css'
-import 'viewerjs/dist/viewer.css'; 
-import VueViewer from 'v-viewer'; 
 
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS styles
 
 const app = createApp(App)
-app.use(VueViewer);
-app.use(createPinia())
 app.use(router)
+AOS.init(); // Initialize AOS globally
 
 app.mount('#app')

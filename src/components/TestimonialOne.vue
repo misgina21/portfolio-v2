@@ -1,12 +1,12 @@
 <template>
     <div class="pb-10">
         <div class="mx-6 sm:mx-16 py-5">    
-            <div class="mx-auto mt-5 md:max-w-5xl lg:max-w-7xl relative">
-                <h3 class="mb-5 uppercase text-4xl font-semibold text-gray-200 dark:text-neutral-200">
+            <div data-aos="fade-up" data-aos-duration="1000" class="mx-auto mt-5 md:max-w-5xl lg:max-w-7xl relative">
+                <h3 class="mb-5 uppercase text-4xl font-semibold text-gray-300 dark:text-neutral-200">
                     What people say about me
                 </h3>
             </div>
-            <swiper :slidesPerView="3" center-insufficient-slides :spaceBetween="30" :breakpoints="{
+            <swiper data-aos="fade-up" data-aos-duration="1000" :slidesPerView="3" center-insufficient-slides :spaceBetween="30" :breakpoints="{
             300: {
               slidesPerView: 1,
               spaceBetween: 20,
@@ -95,6 +95,20 @@ const testimonials = ref([
         title: 'Mr.',
         institution: 'Pilasa Technologies',
         position: 'CEO',
+        message: 'Misgina owns...'
+    },
+    {
+        name: 'Asmelash Girmay',
+        title: 'Mr.',
+        institution: 'Ahaz Platforms',
+        position: 'CEO',
+        message: 'Misgina owns...'
+    },
+    {
+        name: 'Teklay Gereziher',
+        title: 'Mr.',
+        institution: 'Ahaz Platforms',
+        position: 'Sr. SWE',
         message: 'Misgina owns...'
     }
 ])
