@@ -28,87 +28,57 @@
               <div class="h-screen">
                 <div class="my-4 flex h-5/6 w-72 flex-col rounded-tr-2xl rounded-br-2xl">
                   <ul class=" flex flex-col">
-                    <li class="relative transition">
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('home')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
                         Home
                       </a>
                     </li>
-                    <li class="relative transition">
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('services')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
+                        
                         Services
                       </a>
                     </li>
-                    <li class="relative transition">
-                      <a  @click.prevent="scrollToSection('portfolio')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
+                      <a  @click.prevent="scrollToSection('portfolio')" 
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >                       
                         Projects
                       </a>
                     </li>
-                    <li class="relative transition">
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('experience')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
+                        
                         Experience
                       </a>
                     </li>
-                    <li class="relative transition">
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('skills')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
+                        
                         Skills
                       </a>
                     </li>
-                    <li class="relative transition">
+                    <!-- <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('testimonial')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
+                        
                         Testimonial
                       </a>
-                    </li>
-                    <li class="relative transition">
+                    </li> -->
+                    <li class="relative transition text-center text-gray-100 hover:bg-gray-100 hover:text-gray-800">
                       <a  @click.prevent="scrollToSection('contact')"
-                        class="relative mx-2 flex cursor-pointer items-center py-3 pl-5"
-                        :class="[$route.name === 'Home' ? 'bg-gray-200 text-gray-800' : 'text-gray-200']">
-                        <span class="mr-5 flex w-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-                            viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                              d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-                          </svg></span>
+                        class="relative ml-6 flex cursor-pointer items-center py-2 pl-5"
+                        >
+                        
                         Contact Me
                       </a>
                     </li>
@@ -154,10 +124,10 @@
               <p @click.prevent="scrollToSection('skills')" class="text-lg font-normal leading-6 pr-6 cursor-pointer"> Skills </p>
               <p @click.prevent="scrollToSection('contact')" class="text-lg font-normal leading-6 pr-6 cursor-pointer">Contact Me</p>
             </div>
-            <button type="button"
+            <!-- <button type="button"
               class="sm:hidden flex justify-center bg-transpdarent text-white text-base py-2 border rounded-lg hover:bg-gray-800 transition duration-300 w-32">
               Download CV
-            </button>
+            </button> -->
           </div>
         </div>
         <!-- Scroll top button -->
