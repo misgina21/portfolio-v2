@@ -3,7 +3,9 @@
     class="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-blsack before:opacitsy-50 before:z-1d0">
     <!-- <img src="@/assets/default-avatar.png" alt="Banner Image" class="absolute inset-0 w-full h-full object-cover" /> -->
 
-    <div class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-gray-400 p-6" id="home">
+    <div
+      class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-gray-400 p-6"
+      id="home">
       <div data-aos="fade-right" data-aos-duration="1000" class="bg-rded-500 flex flex-col md:flex-row w-full">
         <div class="md:hidden flex justify-center mb-4">
           <img src="@/assets/misgina.jpg" alt="Banner Image"
@@ -62,22 +64,21 @@
     <div class="bg-grey-50  md:px-16" id="about">
       <div class="container flex flex-col items-cdenter py-16 md:py-20 lg:flex-row">
         <div class="w-full text-cendter lg:text-left">
-          <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
+          <h2 data-aos="fade-up" data-aos-duration="1000"
+            class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
             Who am I?
           </h2>
-          <h4 data-aos="fade-up" data-aos-duration="1000" class="pt-6 text-2xl lg:text-3xl">
+          <!-- <h4 data-aos="fade-up" data-aos-duration="1000" class="pt-6 text-2xl lg:text-3xl">
             Here is Misgina, a Web Developer!
-          </h4>
+          </h4> -->
           <p data-aos="fade-up" data-aos-duration="1000" class="pt-6 leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-            occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+            I am a deaf, able to speak, software developer who is passionate about developing resposnsive and intuitive
+            web applications, websites and mobile applications. I can serve as a frontend, backend or fullstack
+            developer. Regarding my communication, I am able to communicate through fast and excellent keyboard typing
+            and sometimes lip reading.
           </p>
-          <div data-aos="fade-up" data-aos-duration="1000" class="hidden lg:flex flex-col pt-6 sm:flex-row lg:justify-start">
+          <div data-aos="fade-up" data-aos-duration="1000"
+            class="hidden lg:flex flex-col pt-6 sm:flex-row lg:justify-start">
             <div class="flex items-center justify-start">
               <p class="text-lg font-semibold uppercase text-grey-20">
                 Connect with me
@@ -105,14 +106,16 @@
       </div>
     </div>
     <div class="container md:px-16" id="services">
-      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold text-gray-400 sm:text-5xl lg:text-4xl my-10">
+      <h2 data-aos="fade-up" data-aos-duration="1000"
+        class="text-4xl font-semibold text-gray-400 sm:text-5xl lg:text-4xl my-10">
         Services I provide
       </h2>
       <!-- <h3 class="pt-6 text-xl font-medium sm:text-2xl lg:text-3xl">
         These are the services I offer
       </h3> -->
 
-      <div data-aos="fade-up" data-aos-durtion="2000" class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
+      <div data-aos="fade-up" data-aos-durtion="2000"
+        class="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3">
         <div data-aos="fade-up" data-aos-duration="2000" class="group rounded border  py-12 shadow">
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="block">
@@ -176,15 +179,44 @@
       </div>
     </div>
     <div class="container py-16 md:py-10 md:px-16" id="portfolio">
-      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl my-24">
+      <h2 data-aos="fade-up" data-aos-duration="1000"
+        class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl my-24">
         Check out my Projects
       </h2>
       <div class="space-y-16 my-16">
+        <div data-aos="fade-up" data-aos-duration="1000"
+          class="flex flex-col shadow-xl rounded-sm bg-whfite shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border "
+          style="">
+          <img class="h-64 w-full rounded-md object-cover md:h-44 md:w-48" src="@/assets/olive.png" alt="" />
+          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+            <div class="flex flex-col lg:flex-row items-center">
+              <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">Olive Pharmaceutical Website</h5>
+              <div class="flex space-x-4 lg:ml-8 justify-center">
+                <div
+                  class="flex justify-center rounded-sm bg-gray-100 px-2.5 border border-transparent text-sm text-gray-800 transition-all shadow-sm">
+                  Vue.js
+                </div>
+                <div
+                  class="flex justify-center rounded-sm bg-gray-100 px-2.5 border border-transparent text-sm text-gray-800 transition-all shadow-sm">
+                  Tailwind CSS
+                </div>
+              </div>
+            </div>
+            <p class="mb-4 mt-4 text-base">
+              A dynamic and responsive user-friendly website designed to facilitate the company’s online presence,
+              showcase its pharmaceutical products and services, share its mission and vision, and facilitate
+              communication with stakeholders.
+            </p>
+            <!-- <p class="text-xs text-surface/75 dark:text-neutral-300">
+              Last updated 3 mins ago
+            </p> -->
+          </div>
+        </div>
         <div v-for="(project, index) in projects" :key="index" data-aos="fade-up" data-aos-duration="1000"
           class="flex flex-col shadow-xl rounded-sm bg-whfite shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border "
           style="">
           <img class="h-64 w-full rounded-md object-cover md:h-44 md:w-48" :src="project.image" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-20">
+          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">{{project.name}}</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -195,18 +227,18 @@
               </div>
             </div>
             <p class="mb-4 mt-4 text-base">
-              This is a wider card with supporting text below as a natural lead-in
-              to additional content. This content is a little bit longer.
+              {{ project.description }}
             </p>
-            <p class="text-xs text-surface/75 dark:text-neutral-300">
+            <!-- <p class="text-xs text-surface/75 dark:text-neutral-300">
               Last updated 3 mins ago
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
     </div>
     <div class="container px-6 md:px-20 pt-16 md:pt-10" id="experience">
-      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
+      <h2 data-aos="fade-up" data-aos-duration="1000"
+        class="text-4xl font-semibold uppercase text-gray-400 sm:text-5xl lg:text-4xl">
         My work experience
       </h2>
       <!-- <h3 class="pt-6 text-center  text-xl font-medium text-gray-400 sm:text-2xl lg:text-3xl">
@@ -296,7 +328,8 @@
     </div>
     <div class="px-6 md:px-20" id="skills">
       <div class="container pb-16">
-        <h2 data-aos="fade-up" data-aos-duration="1000" class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
+        <h2 data-aos="fade-up" data-aos-duration="1000"
+          class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
           Technologies I am good at
         </h2>
         <div data-aos="fade-up" data-aos-duration="1000">
@@ -419,9 +452,10 @@
         </div>
       </div>
     </div>
-    <Testimonial id="testimonial"/>
+    <Testimonial id="testimonial" />
     <div class="mt-6 px-6 md:px-20" id="contact">
-      <h2 data-aos="fade-up" data-aos-duration="1000" class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
+      <h2 data-aos="fade-up" data-aos-duration="1000"
+        class="text-2xl font-semibold uppercase text-gray-400 sm:text-3xl lg:text-4xl mt-24 pb-8">
         Contact me
       </h2>
       <div data-aos="fade-up" data-aos-duration="1000"
@@ -509,7 +543,8 @@
           <textarea placeholder='Message' rows="6"
             class="w-full text-gray-400 rounded-md bg-black px-4 border text-sm pt-2.5 outline-none focus:border-white"></textarea>
           <button type='button'
-            class="text-black bg-gray-300 hover:bg-gray-50 rounded-md text-base px-4 py-2.5 w-full !mt-6">Send Message</button>
+            class="text-black bg-gray-300 hover:bg-gray-50 rounded-md text-base px-4 py-2.5 w-full !mt-6">Send
+            Message</button>
         </form>
       </div>
     </div>
@@ -528,34 +563,34 @@ defineProps({
 
 const projects = ref([
   {
-    name: 'Pharmaceutical Website',
+    name: 'Olive Pharmaceutical Website',
     technologies: ['Vue.js', 'Tailwind CSS'],
-    description: 'Some description...',
-    image: 'src/assets/tailwind.png'
+    description: 'A dynamic and responsive user-friendly website designed to facilitate the company’s online presence, showcase its pharmaceutical products and services, share its mission and vision, and facilitate communication with stakeholders.',
+    image: 'src/assets/olive.png'
   },
   {
     name: 'E-Commerce System',
     technologies: ['Vue.js', 'Tailwind CSS'],
-    description: 'Some description...',
-    image: 'src/assets/tailwind.png'
+    description: 'An e-commerce admin software that streamlines the management of online stores. The system includes functionalities for product management, order processing, user analytics, and interactive dashboard.',
+    image: 'src/assets/eCom.png'
   },
   {
-    name: 'Blogging App',
+    name: 'Programmers\' Blog',
     technologies: ['HTML/CSS', 'Django', 'SQLite'],
-    description: 'Some description...',
-    image: 'src/assets/tailwind.png'
+    description: 'An open source web-based blogging application used to share information related to technology and programming.',
+    image: 'src/assets/blog.png'
   },
   {
-    name: 'SACCO App',
+    name: 'SACCO Web-based App',
     technologies: ['Laravel', 'Bootstrap', 'MySQL'],
-    description: 'Some description...',
-    image: 'src/assets/tailwind.png'
+    description: 'A secure and user-friendly web-based saving and credit cooperative system software designed to manage member savings, loans, and financial transactions.',
+    image: 'src/assets/saving.png'
   },
   {
     name: 'School Management System and Website',
     technologies: ['HTML/CSS', 'PHP', 'MySQL'],
     description: 'Some description...',
-    image: 'src/assets/tailwind.png'
+    image: 'src/assets/school.png'
   },
 ]);
 </script>
