@@ -247,7 +247,7 @@
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"
           class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
-          <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/blog.png" alt="" />
+          <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/blogs.png" alt="" />
           <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">Blog Post</h5>
