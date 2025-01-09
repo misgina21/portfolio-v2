@@ -54,19 +54,19 @@
         </div>
         <div class="hidden md:flex pl-6">
           <img src="@/assets/misgina.jpg" alt="Banner Image"
-            class="rounded-full h-48 w-48 md:h-96 md:w-96 border-4 border-green-500 shadow-xl" />
+            class="rounded-full h-48 w-48 md:h-96 md:w-96 border-4 border-gra-500 shadow-xl" />
         </div>
 
       </div>
     </div>
   </div>
-  <div class="mx-6 mx-sm-10">
+  <div class="mx-6 md:mx-10">
     <div class="md:px-32 flex" id="about" data-aos="fade-up" data-aos-duration="1000">
-      <div class="hidden md:flex w-3/4 py-12 m-10 ml-0 mr-4" data-aos="fade-up" data-aos-duration="1000">
-          <img src="@/assets/misgina.jpg" alt="Banner Image"
+      <div class="hidden xl:flex w-3/4 py-12 m-10 ml-0 mr-4" data-aos="fade-up" data-aos-duration="1000">
+          <img src="@/assets/misgie.jpg" alt="Banner Image"
             class="rounded-full h-96 w-96 border-4 border-gray-50 shadow-xl" />
         </div>
-      <div class="container flex flex-col md:items-center py-16 md:py-20 lg:flex-row">
+      <div class="container flex flex-col xl:items-center py-16 md:py-20 lg:flex-row">
         <div class="w-full text-cendter lg:text-left">
           <h2 data-aos="fade-up" data-aos-duration="1000"
             class="text-4xl font-semibold uppercase text-gray-300 sm:text-5xl lg:text-4xl">
@@ -78,7 +78,7 @@
           <p data-aos="fade-up" data-aos-duration="1000" class="pt-6 leading-relaxed">
             I am a deaf, able to speak, software developer who is passionate about developing resposnsive and intuitive
             web applications, websites and mobile applications. I can serve as a frontend, backend or fullstack
-            developer. Regarding my communication, I am able to communicate through fast and excellent keyboard typing
+            developer. <br class="hidden xl:flex"> Regarding my communication, I am able to communicate through fast and excellent keyboard typing
             and sometimes lip reading.
           </p>
           <div data-aos="fade-up" data-aos-duration="1000"
@@ -340,7 +340,7 @@
         </div>
       </div>
     </div>
-    <div class="container px-6 md:px-20 pt-16 md:pt-10" id="experience">
+    <div class="container md:px-20 pt-16 md:pt-10" id="experience">
       <h2 data-aos="fade-up" data-aos-duration="1000"
         class="text-4xl font-semibold uppercase text-gray-300 sm:text-5xl lg:text-4xl">
         My work experience
@@ -410,14 +410,14 @@
               </div>
             </div>
           </div>
-          <div class="md:w-3/5">
+          <div class="md:w-3/5 -ml-14 sm:ml-0">
             <div class="relative flex md:pl-18">
               <div class="mt-1 flex items-center">
                 <span class="hidden h-4 w-4 rounded-full border-2 border-grey-40 bg-white md:block"></span>
                 <div class="md:-mt-1 md:pl-8">
                   <span class="block pt-2  text-xl font-bold text-gray-300">Frontend
                     Developer</span>
-                  <span class="block  font-semibold text-gray-300 text-left text-base">Aug 2024 - Dec 2024</span>
+                  <span class="block font-semibold text-gray-300 text-left text-base">Aug 2024 - Dec 2024</span>
                   <!-- <div class="pt-2">
                     <span class="block  text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Vestibulum mattis felis vitae risus pulvinar tincidunt. Nam ac
@@ -430,15 +430,15 @@
         </div>
       </div>
     </div>
-    <div class="px-6 md:px-20" id="skills">
+    <div class="md:px-20" id="skills">
       <div class="container pb-16">
         <h2 data-aos="fade-up" data-aos-duration="1000"
-          class="text-2xl font-semibold uppercase text-gray-300 sm:text-3xl lg:text-4xl mt-24 pb-8">
+          class="text-2xl text-center md:text-left font-semibold uppercase text-gray-300 sm:text-3xl lg:text-4xl mt-24 pb-8">
           Technologies I am good at
         </h2>
         <div data-aos="fade-up" data-aos-duration="1000">
           <h4 class="py-6 text-center text-2xl">
-            Advanced skills
+            My Advanced skills
           </h4>
           <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
             <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
@@ -525,7 +525,7 @@
         </div>
         <div data-aos="fade-up" data-aos-duration="1000">
           <h4 class="py-6 text-center text-2xl mt-10">
-            Basic skills
+            My Basic skills
           </h4>
           <div class="flex flex-wrap justify-center mx-auto max-w-4xl md:px-6">
             <div class="w-1/3 py-4 sm:py-6 lg:w-1/6">
@@ -557,7 +557,7 @@
       </div>
     </div>
     <!-- <Testimonial id="testimonial" /> -->
-    <div class="mt-6 px-6 md:px-20" id="contact">
+    <div class="mt-6 md:px-20" id="contact">
       <h2 data-aos="fade-up" data-aos-duration="1000"
         class="text-2xl font-semibold uppercase text-gray-300 sm:text-3xl lg:text-4xl mt-24 pb-8">
         Contact me
@@ -637,7 +637,7 @@
           </div>
         </div>
 
-        <form class="ml-auo space-y-4">
+        <form class="ml-auto space-y-4">
           <input v-model="form.fullName" type='text' placeholder='Full Name' class="w-full text-gray-300 rounded-md bg-black py-2.5 px-4 border text-sm outline-nodne focus:border-white" :class="{ 'border-red-500': $v.fullName.$error }"/>
           <p v-if="$v.fullName.$error" class="text-sm text-red-500">{{ $v.fullName.$errors[0].$message }}</p>
           <input v-model="form.email" type='email' placeholder='Email' class="w-full text-gray-300 rounded-md bg-black py-2.5 px-4 border text-sm outline-none focus:border-white" :class="{ 'border-red-500': $v.email.$error }"/>
