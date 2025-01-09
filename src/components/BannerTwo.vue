@@ -7,9 +7,9 @@
       class="min-h-[550px] relative h-full max-w-4xl mx-auto flex flex-col justify-center items-center text-gray-300 p-6"
       id="home">
       <div data-aos="fade-right" data-aos-duration="1000" class="bg-rded-500 flex flex-col md:flex-row w-full">
-        <div class="md:hidden flex justify-center mb-4">
+        <div class="md:hidden flex justify-center mb-8 rounded-full h-64 w-64 md:h-96 md:w-96 bg-gray-400">
           <img src="@/assets/misgina.jpg" alt="Banner Image"
-            class="rounded-full h-64 w-64 md:h-96 md:w-96 border-8 border-blue-200 shadow-xl mt-4" />
+            class="rounded-full h-64 w-64 md:h-96 md:w-96 border-l-8 border-r-8 border-r-red-500 border-t-8 border-t-gray-400 border-b-8 border-b-yellow-500 border-l-green-600 shadow-xl mt-4" />
         </div>
         <div class="md:w-1/2 flex flex-col justify-center">
           <div class="border-rd-4 w-fidt pr-4 mb-8 flex flex-col itedms-center">
@@ -54,15 +54,19 @@
         </div>
         <div class="hidden md:flex pl-6">
           <img src="@/assets/misgina.jpg" alt="Banner Image"
-            class="rounded-full h-48 w-48 md:h-96 md:w-96 border-4 border-gray-100 shadow-xl" />
+            class="rounded-full h-48 w-48 md:h-96 md:w-96 border-4 border-green-500 shadow-xl" />
         </div>
 
       </div>
     </div>
   </div>
-  <div class="mx-10">
-    <div class="bg-grey-50  md:px-16" id="about">
-      <div class="container flex flex-col items-cdenter py-16 md:py-20 lg:flex-row">
+  <div class="mx-6 mx-sm-10">
+    <div class="md:px-32 flex" id="about" data-aos="fade-up" data-aos-duration="1000">
+      <div class="hidden md:flex w-3/4 py-12 m-10 ml-0 mr-4" data-aos="fade-up" data-aos-duration="1000">
+          <img src="@/assets/misgina.jpg" alt="Banner Image"
+            class="rounded-full h-96 w-96 border-4 border-gray-50 shadow-xl" />
+        </div>
+      <div class="container flex flex-col md:items-center py-16 md:py-20 lg:flex-row">
         <div class="w-full text-cendter lg:text-left">
           <h2 data-aos="fade-up" data-aos-duration="1000"
             class="text-4xl font-semibold uppercase text-gray-300 sm:text-5xl lg:text-4xl">
@@ -183,11 +187,11 @@
         class="text-4xl font-semibold uppercase text-gray-300 sm:text-5xl lg:text-4xl my-24">
         Check out my Projects
       </h2>
-      <div class="space-y-16 my-16">
+      <div class="space-y-16 my-10 my-sm-16">
         <div data-aos="fade-up" data-aos-duration="1000"
-          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
+          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-3 px-sm-6 border ">
           <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/olive.png" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+          <div class="flex flex-col justify-start py-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">Olive Pharmaceutical Website</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -216,9 +220,9 @@
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"
-          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
+          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-3 px-sm-6 border ">
           <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/eCom.png" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+          <div class="flex flex-col justify-start p-sm-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">E-Commerce System</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -246,9 +250,9 @@
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"
-          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
+          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row px-2 py-6 px-sm-6 border ">
           <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/blogs.png" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+          <div class="flex flex-col justify-start p-sm-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">Blog Post</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -276,9 +280,9 @@
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"
-          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
+          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-3 px-sm-6 border ">
           <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/saving.png" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+          <div class="flex flex-col justify-start py-6 pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">Web-based SACCO App</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -306,9 +310,9 @@
           </div>
         </div>
         <div data-aos="fade-up" data-aos-duration="1000"
-          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-6 border ">
+          class="flex flex-col shadow-xl rounded-sm shadow-secondary-1 dark:bg-surface-dark dark:text-white md:max-w-full md:flex-row py-6 px-3 px-sm-6 border ">
           <img class="h-64 w-full rounded-sm object-cover md:h-36 md:w-48" src="@/assets/school.png" alt="" />
-          <div class="flex flex-col justify-start p-6 pt-3 md:ml-10">
+          <div class="flex flex-col justify-start pt-3 md:ml-10">
             <div class="flex flex-col lg:flex-row items-center">
               <h5 class="mb-4 lg:mb-0 text-xl font-medium text-center">School Management System and Website</h5>
               <div class="flex space-x-4 lg:ml-8 justify-center">
@@ -327,8 +331,7 @@
               </div>
             </div>
             <p class="mb-4 mt-4 text-base">
-              An e-commerce admin software that streamlines the management of shopping tracks. The system includes
-              functionalities for product management, order processing, user analytics, and interactive dashboard.
+              A system that simplifies administrative processes with features like student registration, teacher management, and admin functionalities. The website part includes features like information delivery, about us, news and others.
             </p>
             <!-- <p class="text-xs text-surface/75 dark:text-neutral-300">
               Last updated 3 mins ago
